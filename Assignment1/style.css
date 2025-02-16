@@ -1,0 +1,27 @@
+/* Bottom Bar Styling */
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Light background */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Shadow for better appearance */
+    z-index: 1000; /* Keep it above other content */
+}
+
+.bottom-bar .nav-item {
+    text-align: center;
+}
+
+.bottom-bar i {
+    font-size: 24px; /* Icon size */
+    color: #000; /* Icon color */
+}
+
+.bottom-bar .nav-link {
+    padding: 10px 15px; /* Spacing around icons */
+    color: #000; /* Text color for links */
+}
+
+.bottom-bar .nav-link.active {
+    color: #007bff; /* Active icon color */
+}
