@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand text-dark fw-bold" href="#">BookStore</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-bold">
+                    <li class="nav-item"><a class="nav-link text-dark active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Books</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Best Sellerss</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Award Winners</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Today's Deals</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Featured Author</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="travelCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://www.wordcounttool.com/wp-content/uploads/2021/01/Used-books-in-book-store.jpeg"
+                    class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://collegebookstore.in/wp-content/uploads/2021/03/online-book-shopping-sites-in-india.png"
+                    class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://libro-terra.com/wp-content/uploads/2020/01/header_slider_1.png"
+                    class="d-block w-100" alt="Slide 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#bookCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#bookCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4 fw-bold">Buy Books</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://m.media-amazon.com/images/I/61M6KzUbf7L._AC_UF1000,1000_QL80_.jpg"
+                        class="card-img-top" alt="Paris">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Atomic Habits</h5>
+                        <p class="card-text"> No matter your goals, Atomic Habits offers a proven framework for improving--every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.</p>
+                        <a href="#" class="btn btn-success">Buy This</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://media.licdn.com/dms/image/D5612AQF3NNmKwOLV2Q/article-cover_image-shrink_720_1280/0/1712665091929?e=2147483647&v=beta&t=p6y7k5MMAdxX1-74RbzDZApGkvtWxW0n8dNZM7aHQWs"
+                        class="card-img-top" alt="Goa">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">The Power of your subconscious mind</h5>
+                        <p class="card-text">Your subconscious mind can give you independence of time and space. It can make you free of all pain and suffering. There is a power and an intelligence within you that far transcends your intellect.</p>
+                        <a href="#" class="btn btn-success">Buy This</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa3Pi1SzRjvlES9_lbj_q_dR7dy6DD1eafxA&s"
+                        class="card-img-top" alt="Kashmir">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">The 5 AM Club</h5>
+                        <p class="card-text">The 'club' refers to a set of simple rules designed to guide your mornings, and it's often shared as a hashtag across social platforms, connecting like-minded early risers. To be a member, you simply need to get out of bed at 5am and use your mornings to focus on exercise, self-reflection, and developing new skills</p>
+                        <a href="#" class="btn btn-success">Buy This</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
