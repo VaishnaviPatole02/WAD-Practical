@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delicious Bites Restaurant</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        .custom-header {
+            background-color: rgb(171, 100, 236) !important;
+            color: white !important;
+            text-align: center;
+        }
+
+    
+
+        .content-text {
+            text-align: center;
+        }
+
+        .offer-description {
+            font-size: 1.2em;
+            color: rgb(29, 7, 34);
+        }
+
+        .image-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Home Page -->
+    <div data-role="page" id="home">
+        <div data-role="header" class="custom-header">
+            <h1>Delicious Bites Restaurant</h1>
+            <h3>Where Every Bite Feels Like Home</h3>
+        </div>
+
+        <div data-role="navbar" data-grid="c">
+            <ul>
+                <li><a href="#home" class="ui-btn-active" data-transition="flow">Home</a></li>
+                <li><a href="#about" data-transition="flow">About Us</a></li>
+                <li><a href="#menu" data-transition="flow">Menu</a></li>
+                <li><a href="#contact" data-transition="flow">Contact</a></li>
+            </ul>
+        </div>
+
+        <div data-role="header">
+            <h1 style="color: blueviolet;">Welcome to Delicious Bites!</h1>
+        </div>
+
+        <div data-role="content" class="content-text">
+            <p class="offer-description">Indulge in the finest meals and exceptional dining experiences at Delicious Bites Restaurant. Whether you're craving something classic or adventurous, we have something for everyone!</p>
+        </div>
+
+    
+
+        <div data-role="content" class="content-text">
+            <p>From freshly baked pizzas and sizzling steaks to delectable desserts, we bring the best of global flavors to your table. Our chefs use only the finest ingredients to prepare every dish with love and care.</p>
+        </div>
+    </div>
+
+    <!-- About Page -->
+    <div data-role="page" id="about">
+        <div data-role="header" class="custom-header">
+            <h1>Delicious Bites Restaurant</h1>
+            <h3>Where Every Bite Feels Like Home</h3>
+        </div>
+
+        <div data-role="navbar" data-grid="c">
+            <ul>
+                <li><a href="#home" data-transition="flow">Home</a></li>
+                <li><a href="#about" class="ui-btn-active" data-transition="flow">About Us</a></li>
+                <li><a href="#menu" data-transition="flow">Menu</a></li>
+                <li><a href="#contact" data-transition="flow">Contact</a></li>
+            </ul>
+        </div>
+
+        <div data-role="header">
+            <h1 style="color: rgb(117, 48, 182);">About Delicious Bites</h1>
+        </div>
+
+        <div data-role="content">
+            <p>Delicious Bites Restaurant was founded with one mission in mind: to bring together the best culinary techniques and the finest ingredients to create unforgettable meals. We believe in offering a wide variety of dishes, from classic comfort foods to modern gourmet creations, all prepared with passion and care.</p>
+            <p>Our story began with a love for great food, family gatherings, and the joy that a perfect meal can bring. Over the years, we've become a beloved spot for both casual diners and food enthusiasts alike. Whether you're here for a quick bite, a family celebration, or a romantic dinner, we aim to make every dining experience memorable.</p>
+        </div>
+
+        <div data-role="content">
+            <h3 style="color: rgb(222, 111, 31);">Our Philosophy</h3>
+            <p>At Delicious Bites, we believe food should not only taste amazing but also bring people together. Our chefs focus on quality, using fresh, locally sourced ingredients to craft every dish. We embrace culinary creativity while staying true to traditional flavors that comfort and delight.</p>
+            <p>We are also committed to offering options for all tastes, including vegan, vegetarian, gluten-free, and more. Whether you’re dining in or ordering takeout, you can be sure you’re getting a meal that’s been made with care and passion.</p>
+        </div>
+
+        <div data-role="content">
+            <h3 style="color: rgb(222, 111, 31);">Meet Our Team</h3>
+            <p>Our team is the heart and soul of Delicious Bites. From the chefs who create mouthwatering dishes to the friendly staff who ensure every guest has a fantastic experience, we’re all dedicated to delivering excellence. Here are the people who make it all happen:</p>
+            <ul>
+                <li><strong>Chef Maria Lopez</strong> - Executive Chef: With over 15 years of experience, Chef Maria brings her culinary expertise to every dish she creates. Her passion for flavors and attention to detail makes Delicious Bites a special place.</li>
+                <li><strong>John Smith</strong> - Restaurant Manager: John’s leadership ensures everything runs smoothly, and his focus on customer satisfaction means that every guest has a great time at the restaurant.</li>
+                <li><strong>Sarah Williams</strong> - Head Server: Sarah brings energy and warmth to the dining room, making sure every guest feels at home during their visit.</li>
+            </ul>
+        </div>
+
+        <div data-role="content">
+            <h3 style="color: rgb(222, 111, 31);">Our Commitment to Sustainability</h3>
+            <p>We care about the environment, and we strive to make choices that are sustainable and responsible. From using eco-friendly packaging for takeout to sourcing locally grown produce, we are committed to reducing our environmental footprint while delivering the best dining experience possible.</p>
+        </div>
+    </div>
+
+    <!-- Menu Page -->
+    <div data-role="page" id="menu">
+        <div data-role="header" class="custom-header">
+            <h1>Delicious Bites Restaurant</h1>
+            <h3>Where Every Bite Feels Like Home</h3>
+        </div>
+
+        <div data-role="navbar" data-grid="c">
+            <ul>
+                <li><a href="#home" data-transition="flow">Home</a></li>
+                <li><a href="#about" data-transition="flow">About Us</a></li>
+                <li><a href="#menu" class="ui-btn-active" data-transition="flow">Menu</a></li>
+                <li><a href="#contact" data-transition="flow">Contact</a></li>
+            </ul>
+        </div>
+
+        <div data-role="header">
+            <h1 style="color: blueviolet;">Menu</h1>
+        </div>
+
+        <div data-role="content">
+            <h3 style="color: rgb(222, 111, 31);">Appetizers</h3>
+            <ul>
+                <li>Garlic Bread</li>
+                <li>Bruschetta</li>
+                <li>Stuffed Mushrooms</li>
+            </ul>
+
+            <h3 style="color: rgb(222, 111, 31);">Main Course</h3>
+            <ul>
+                <li>Margherita Pizza</li>
+                <li>Classic Cheeseburger</li>
+                <li>Vegetarian Lasagna</li>
+                <li>Grilled Salmon with Asparagus</li>
+            </ul>
+
+            <h3 style="color: rgb(222, 111, 31);">Desserts</h3>
+            <ul>
+                <li>Chocolate Lava Cake</li>
+                <li>Cheesecake with Berry Compote</li>
+                <li>Tiramisu</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Contact Page -->
+    <div data-role="page" id="contact">
+        <div data-role="header" class="custom-header">
+            <h1>Delicious Bites Restaurant</h1>
+            <h3>Where Every Bite Feels Like Home</h3>
+        </div>
+
+        <div data-role="navbar" data-grid="c">
+            <ul>
+                <li><a href="#home" data-transition="flow">Home</a></li>
+                <li><a href="#about" data-transition="flow">About Us</a></li>
+                <li><a href="#menu" data-transition="flow">Menu</a></li>
+                <li><a href="#contact" class="ui-btn-active" data-transition="flow">Contact</a></li>
+            </ul>
+        </div>
+
+        <div data-role="header">
+            <h1 style="color: blueviolet;">Contact Us</h1>
+        </div>
+
+        <div data-role="content">
+            <p><strong>Address:</strong> 123 Tasty Street, Food City, Flavor Town, USA</p>
+            <p><strong>Phone:</strong> 555-1234-5678</p>
+            <p><strong>Email:</strong> info@deliciousbites.com</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
