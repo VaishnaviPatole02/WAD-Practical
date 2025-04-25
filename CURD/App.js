@@ -29,11 +29,6 @@ app.get('/users/:name', async (req, res) => {
     res.send(users);
 });
 
-app.delete('/users/delete',async(req,res)=>{
-    const {name}=req.params;
-    const users = await User.findOneAndDelete({name});
-    res.send(users);
-});
 
 app.post('/add', async (req, res) => {
     const { name, email, mobile } = req.body;

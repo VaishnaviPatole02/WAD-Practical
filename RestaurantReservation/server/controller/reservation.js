@@ -9,14 +9,14 @@ export const trackReservation = async (req, res, next) => {
     }
 
     try {
-        // Query the reservation using the provided query parameters
+        
         const reservation = await Reservation.findOne({ firstName, lastName, email });
 
         if (!reservation) {
             return next(new ErrorHandler('Reservation not found.', 404));
         }
 
-        // Return the found reservation data
+        
         res.status(200).json(reservation);
     } catch (error) {
         return next(new ErrorHandler('An error occurred while tracking the reservation.', 500));
@@ -50,13 +50,3 @@ export const sendReservation = async (req, res, next) => {
 };
 
 
-// export const sendReservation = async (req, res, next) => {
-//     console.log("REQ.HEADERS:", req.headers);
-//     console.log("REQ.BODY:", req.body);
-  
-//     res.status(200).json({
-//       message: "Body test",
-//       body: req.body
-//     });
-//   };
-  

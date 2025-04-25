@@ -8,7 +8,7 @@ const Home = () => (
         </div>
         <div className="col-md-4">
           <h1 className="display-4">Food</h1>
-          <p className="text-muted small mt-2">A FOOD FRESH COMPANY EST. F</p>
+          <p className="text-muted small mt-2">A FOOD FRESH COMPANY </p>
         </div>
         <div className="col-md-4">
           <img src="./hero2.png" alt="Burger" className="img-fluid rounded shadow" />

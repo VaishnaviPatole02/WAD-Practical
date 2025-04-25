@@ -1,23 +1,3 @@
-// import React from 'react';
-// import { Link } from 'react-router-dom';
-
-// const Reservation = () => {
-//   return (
-//     <section className="p-10">
-//       {/* Buttons for Do Reservation and Track Reservation */}
-//       <div className="d-flex justify-content-center mb-4">
-//         <Link to="/do-reservation" className="btn btn-dark mx-2">
-//           Do Reservation
-//         </Link>
-//         <Link to="/track-reservation" className="btn btn-dark mx-2">
-//           Track Reservation
-//         </Link>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Reservation;
 import React from 'react';
 import { Link } from 'react-router-dom';
 

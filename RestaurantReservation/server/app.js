@@ -15,8 +15,8 @@ app.use(cors({
 })
 );
 
-app.use(express.json());//express.json for converting string to json object
-app.use(express.urlencoded({extended:true}));//urlencoded for which type of data we have
+app.use(express.json());
+app.use(express.urlencoded({extended:true}));
 app.use('/api/v1/reservation',reservationRouter)
 
 dbConnection();
